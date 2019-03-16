@@ -29,6 +29,12 @@ def readCommand( argv ):
                       help='the Output File to which to store the simulation', default="out.json")
     parser.add_option('--frameTime', dest='frameTime', type='float',
                       help=default('Time to delay between frames; <0 means keyboard'), default=0.1)
+    parser.add_option('-r', '--randomize', action='store_true', dest='randomize',
+                      help='Display output as text only', default=False)
+    parser.add_option('--randomDensity', dest='randomDensity', type='float',
+                      help=default('Density of random initial configuration, assuming binary layout'), default=0.4)           
+    
+          
 
     options, otherjunk = parser.parse_args(argv)
     if len(otherjunk) != 0:
@@ -39,6 +45,14 @@ def readCommand( argv ):
     args["output_file"] = options.outputFile
     args["frame_time"] = options.frameTime
     args["conway_game"] = grid.load(args["input_file"])
+    
+    if options.randomize:
+        import random
+        tiles =  args["conway_game"].tiles
+        p = options.randomDensity
+        for i in range(len(tiles)):
+            tiles [i] = 1 if random.random() < p else 0
+    
     return args
 
 def runSimulation(conway_game, num_iterations, frame_time, input_file, output_file):
