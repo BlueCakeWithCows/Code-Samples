@@ -1,0 +1,1 @@
+Cellular Automaton is a discrete model studied in computer science. The most notable example being "Conway's Game of Life". Practical applications range from procedural generation, error correcting codes, and modeling. This project is a general framework for cellular automaton supporting various rules and geometries. Execute the program with python conway.py.  
