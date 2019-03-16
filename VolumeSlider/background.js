@@ -1,3 +1,5 @@
+//TODO: Might want to create a dictionary to keep track of different tabs and hopefully make it smoother.
+
 var gain_node;
 var audio_ctx;
 var media_stream;
@@ -29,6 +31,7 @@ chrome.extension.onConnect.addListener(function(port) {
             });
         }
 
+        //TODO: Note, never called
         if (msg.action == "end") {
             running = false
             audio_ctx.close();
