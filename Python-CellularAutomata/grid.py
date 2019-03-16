@@ -1,5 +1,6 @@
 import json
 import ast
+import rules
 
 class Graph:
     def __init__(self, size = 0, state = None, rules_name = "", rules = [],  wraparound = False):
@@ -97,32 +98,12 @@ class Grid2D(Graph):
         dict["args"] = args
         return dict
 
-    
-
-def getDefaultConwayRules():
-    def rule1(graph, tile_id, val, neighbors):
-        if val and sum(neighbors) < 2: 
-            graph.set_tile(tile_id, 0)
-    def rule2(graph, tile_id, val, neighbors):
-        if val and (sum(neighbors) == 2 or sum(neighbors) == 3): 
-            graph.set_tile(tile_id, 1)
-    def rule3(graph, tile_id, val, neighbors):
-        if val and sum(neighbors) > 3: 
-            graph.set_tile(tile_id, 0)
-    def rule4(graph, tile_id, val, neighbors):
-        if not val and sum(neighbors) == 3: 
-            graph.set_tile(tile_id, 1)        
-    rules = [rule1, rule2, rule3, rule4]
-    return rules
-    
-DEFAULT_CONWAY_RULES = getDefaultConwayRules()
-
 def load(filename):
     with open(filename) as json_data:
         data = json.load(json_data)
     
     grid_args = data["args"] 
-    grid_args["rules"] = eval(data["rules_name"])
+    grid_args["rules"] = rules.getRuleByName(data["rules_name"])
     grid_args["rules_name"] = data["rules_name"]
     grid_args["wraparound"] = data["wraparound"]
     grid_args["state"] = [int(i) for i in data["state"]]
