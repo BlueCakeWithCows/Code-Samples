@@ -9,8 +9,8 @@ ask about them. The larger ones are listed below, most recent first.
  
 # Class Projects
 * CS161 (c, golang)
- * Project 1: Exploiting bugs for privilege elevation. http://www-inst.eecs.berkeley.edu/~cs161/sp19/projects/1/project1-problems.pdf
- * Project 2: Designing secure client for storage on unsafe server. http://www-inst.eecs.berkeley.edu/~cs161/sp19/projects/2/proj2.pdf
+  * Project 1: Exploiting bugs for privilege elevation. http://www-inst.eecs.berkeley.edu/~cs161/sp19/projects/1/project1-problems.pdf
+  * Project 2: Designing secure client for storage on unsafe server. http://www-inst.eecs.berkeley.edu/~cs161/sp19/projects/2/proj2.pdf
 * CS188 (python)
   * Pacman Search: Implementation of various non-adversial searches. https://inst.eecs.berkeley.edu/~cs188/sp19/project1.html
   * Pacman Multi-Agent Search: Implementation of various adversial searches. https://inst.eecs.berkeley.edu/~cs188/sp19/project2.html
