@@ -1,7 +1,7 @@
 # Code-Samples
 This is a WIP repository to showcase snippets of my code. 
 
-# Other Work
+## Other Work
 Much of my recent code has been for school projects, which unfortunately require private repositories to prevent plagariasm. Feel free to ask about them. The larger ones are listed below, most recent first.
 
 ## Personal Projects 
