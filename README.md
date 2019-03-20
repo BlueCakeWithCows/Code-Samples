@@ -7,6 +7,7 @@ Much of my recent code has been for school projects, which unfortunately require
 # Personal Projects
 * MTGO Arbitrage Bot (java): A program that performed aribtrage on Magic the Gathering Cards. It involved scraping price data from various webservers as well as interacting with the trading client. Notably used Selenium Web Driver and Tess4J for web scraping and OCR respectively. 
 https://github.com/BlueCakeWithCows/MTGO
+* TBA
  
 # Class Projects
 * CS161 (c, golang)
@@ -29,9 +30,9 @@ https://github.com/BlueCakeWithCows/MTGO
   * Performance: Optimization of obfuscated convolutional neural network. Placed 2nd. 
   https://inst.eecs.berkeley.edu/~cs61c/su18/projs/04/
 * CS61B (java)
-  * BYoG: A procedural generation game where you collect torches in a dark world.
+  * BYoG: A procedural generation game with a dynamic lighting system. 
   https://sp18.datastructur.es/materials/proj/proj2/proj2
-  * Bearmaps: Implementation of path finding and data parsing for directions.
+  * Bearmaps: Implementation of path finding and data parsing for navigation directions.
   https://sp18.datastructur.es/materials/proj/proj3/proj3
 * CS61A (python)
   * HOG: A dice game where the goal is to maximize your score. 
