@@ -1,5 +1,6 @@
  #Given the mapping a = 1, b = 2, ... z = 26, and an encoded message, count the number of ways it can be decoded.
-from collections import OrderedDict
+#Can apply linear programming methods
+ from collections import OrderedDict
 
 def get_mappings(codes, string):
     table = [0] * (1 + len(string))
