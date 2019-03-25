@@ -7,7 +7,7 @@ Much of my recent code has been for school projects, which unfortunately require
 ## Personal Projects 
 * MTGO Arbitrage Bot (java): A program that performed aribtrage on Magic the Gathering Cards. It involved scraping price data from various webservers as well as interacting with the trading client. Notably used Selenium Web Driver and Tess4J for web scraping and OCR respectively. 
 https://github.com/BlueCakeWithCows/MTGO
-* TBA
+* List in Progress
  
 ## Class Projects
 * CS161 (c, golang)
@@ -16,16 +16,16 @@ https://github.com/BlueCakeWithCows/MTGO
   * Project 2: Designing secure client for storing data securely on an unsecure server.
   http://www-inst.eecs.berkeley.edu/~cs161/sp19/projects/2/proj2.pdf
 * CS188 (python)
-  * Pacman Search: Implementation of various non-adversial searches.
+  * Pacman Search: Implementation of various non-adversarial searches.
   https://inst.eecs.berkeley.edu/~cs188/sp19/project1.html
-  * Pacman Multi-Agent Search: Implementation of various adversial searches. 
+  * Pacman Multi-Agent Search: Implementation of various adversarial searches. 
   https://inst.eecs.berkeley.edu/~cs188/sp19/project2.html
   * Pacman Reinforcement Learning: Implementation of RL methods. 
   https://inst.eecs.berkeley.edu/~cs188/sp19/project3.html
 * CS61C (C)
-  * Chatroom: An networked client-server chatroom. Had support for multiple clients and a few commands.
+  * Chatroom: An networked client-server chatroom. Had support for multiple clients and commands.
   (link dead)
-  * RISCV Emulator: An emulator for a large subset of RISCV instructions.
+  * RISCV Emulator: An emulator for a large subset of RISCV assembly instructions.
   https://inst.eecs.berkeley.edu/~cs61c/su18/projs/02-1/
   * Performance: Optimization of obfuscated convolutional neural network. Placed 2nd. 
   https://inst.eecs.berkeley.edu/~cs61c/su18/projs/04/
